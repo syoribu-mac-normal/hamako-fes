@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="h-test.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.js"
+      integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        const hum = $("#lines, .close");
+        const nav = $(".phone-nav");
+        hum.on("click", function () {
+          nav.toggleClass("toggle");
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <h1>情報処理部</h1>
+      <nav class="pc-nav">
+        <ul>
+          <li><a href="https://hoj.hamako-ths.ed.jp/">HOJ</a></li>
+          <li><a href="https://www.hamako-ths.ed.jp">浜工ウェブサイト</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="phone-nav">
+        <ul>
+          <li><a href="https://hoj.hamako-ths.ed.jp/">HOJ</a></li>
+          <li><a href="https://www.hamako-ths.ed.jp">浜工</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li class="close"><span>閉じる</span></li>
+        </ul>
+      </nav>
+      <div id="lines">
+        <span></span>
+      </div>
+    </header>
+    <div class="main-visual">Hello</div>
+  </body>
+</html>
