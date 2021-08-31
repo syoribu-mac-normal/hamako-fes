@@ -11,6 +11,7 @@ body {
    font-family: 'M PLUS Rounded 1c', sans-serif;
    background-image: linear-gradient(170deg, #a6c0fe 0%, #f68084 100%);
    letter-spacing : 0.2em;
+   background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
 }
 header {
    padding: 30px 4% 10px;
@@ -21,13 +22,24 @@ header {
    display: flex;
    align-items: center;
 }
+<<<<<<< HEAD
 
 h1 {
+=======
+header h1 {
+>>>>>>> 382c733cfd28ba145b114b2a15331e4741f462ad
     font-family: 'DotGothic16', sans-serif;
     margin: 0; padding: 0;
     font-size: 30px;
 }
 
+<<<<<<< HEAD
+=======
+h1{
+   color: white;
+}
+
+>>>>>>> 382c733cfd28ba145b114b2a15331e4741f462ad
 a {	
    text-decoration: none;
    color: #fff;
@@ -63,6 +75,15 @@ h2 {
    /* font-size: 30px; */
    font-weight: normal;
    color: #fff;
+}
+
+.con-nav{
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+   height: 20%;
 }
 
 .sp-nav {
