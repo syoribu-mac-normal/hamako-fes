@@ -25,8 +25,9 @@ header {
 
 h1 {
     font-family: 'DotGothic16', sans-serif;
+    color: #fff;
     margin: 0; padding: 0;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 a {	
