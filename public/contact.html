@@ -15,22 +15,19 @@
       href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded"
       rel="stylesheet"
     />
+
     <script
       src="https://code.jquery.com/jquery-2.2.4.js"
       integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
       crossorigin="anonymous"
     ></script>
-
-    <link rel="stylesheet" href="template/template.css" />
-    <link rel="stylesheet" href="./aboutus.css" type="text/css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
       <h1>
-        <a href="./template/template.css">Syoribu Site</a>
+        <a href="./index.html">Syoribu Site</a>
       </h1>
-
-      <!-- pc向け画面 -->
       <nav class="pc-nav">
         <ul>
           <li><a href="https://hoj.hamako-ths.ed.jp/">HOJ</a></li>
@@ -39,8 +36,6 @@
           <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
-
-      <!-- モバイル向け画面 -->
       <nav class="sp-nav">
         <ul>
           <li><a href="https://hoj.hamako-ths.ed.jp/">HOJ</a></li>
@@ -50,17 +45,18 @@
           <li class="close"><span>Close</span></li>
         </ul>
       </nav>
-      <!-- ここまで -->
-
       <div id="hamburger">
         <span></span>
       </div>
     </header>
-    <main>
-      <section class="main-container">
-        <h2>About Us</h2>
-      </section>
-    </main>
-    <script src="./js/hamburger.js"></script>
+    <div class="main-visual">
+      <ul class="con-nav">
+        <h2 class="main-visual">Contact/Link</h2>
+        <a href="https://bit.ly/2Y8lq5T" class="main-visual">YouTube</a>
+        <a href="#" class="main-visual">e-Mail</a>
+        <a href="https://hoj.hamako-ths.ed.jp" class="main-visual">HOJ</a>
+      </ul>
+    </div>
+    <script src="../js/hamburger.js"></script>
   </body>
 </html>
