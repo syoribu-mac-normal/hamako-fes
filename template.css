@@ -22,24 +22,13 @@ header {
    display: flex;
    align-items: center;
 }
-<<<<<<< HEAD
 
 h1 {
-=======
-header h1 {
->>>>>>> 382c733cfd28ba145b114b2a15331e4741f462ad
     font-family: 'DotGothic16', sans-serif;
     margin: 0; padding: 0;
     font-size: 30px;
 }
 
-<<<<<<< HEAD
-=======
-h1{
-   color: white;
-}
-
->>>>>>> 382c733cfd28ba145b114b2a15331e4741f462ad
 a {	
    text-decoration: none;
    color: #fff;
