@@ -4,11 +4,7 @@
     <meta charset="utf-8" />
     <meta name="robots" content="noindex,nofollow" />
     <title>syoribu-sample</title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="template.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,20 +21,12 @@
       integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
       crossorigin="anonymous"
     ></script>
-    <script>
-      $(function () {
-        const hum = $("#hamburger, .close");
-        const nav = $(".sp-nav");
-        hum.on("click", function () {
-          nav.toggleClass("toggle");
-        });
-      });
-    </script>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
       <h1>
-        <a href="./template.html">Syoribu Site</a>
+        <a href="./index.html">Syoribu Site</a>
       </h1>
       <nav class="pc-nav">
         <ul>
@@ -62,7 +50,13 @@
       </div>
     </header>
     <div class="main-visual">
-      <h2>About Us</h2>
+      <ul class="con-nav">
+        <h2 class="main-visual">Contact/Link</h2>
+        <a href="https://bit.ly/2Y8lq5T" class="main-visual">YouTube</a>
+        <a href="#" class="main-visual">e-Mail</a>
+        <a href="https://hoj.hamako-ths.ed.jp" class="main-visual">HOJ</a>
+      </ul>
     </div>
+    <script src="../js/hamburger.js"></script>
   </body>
 </html>

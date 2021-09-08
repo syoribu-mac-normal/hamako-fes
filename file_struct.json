@@ -1,0 +1,8 @@
+{
+  "js": "JavaScriptファイル",
+  "public": "実際に公開するファイル群",
+  "template": "テンプレートファイル",
+  "test": "機能テストを行うファイル",
+  ".prettier": "prettierの設定ファイル",
+  ".vscode/": "プロジェクト単位のvscodeの設定"
+}
