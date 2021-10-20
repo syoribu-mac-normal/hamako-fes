@@ -31,6 +31,13 @@ h1 {
   font-size: 32px;
 }
 
+h2 {
+  margin: 0;
+  /* font-size: 30px; */
+  font-weight: normal;
+  color: #fff;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -67,13 +74,6 @@ li {
 .text {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   color: whitesmoke;
-}
-
-h2 {
-  margin: 0;
-  /* font-size: 30px; */
-  font-weight: normal;
-  color: #fff;
 }
 
 .con-nav {
