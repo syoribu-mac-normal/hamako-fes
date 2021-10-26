@@ -5,6 +5,8 @@
 * {
   box-sizing: border-box;
 }
+
+/* ボディ全体 */
 body {
   margin: 0;
   padding: 0;
@@ -12,7 +14,10 @@ body {
   letter-spacing: 0.2em;
   background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
   background-attachment: fixed;
+  color: #fff;
 }
+
+/* ヘッダー */
 header {
   padding: 30px 4% 10px;
   /* position: fixed; */
@@ -23,21 +28,30 @@ header {
   align-items: center;
 }
 
+/* フッター */
+footer{
+  padding: 5px;
+  font-size: 5px;
+  position:  absolute;
+  bottom: 0;
+}
+
+/* h1タグに対して */
 h1 {
   font-family: 'DotGothic16', sans-serif;
-  color: #fff;
   margin: 0;
   padding: 0;
   font-size: 30px;
 }
 
+/* h２タグに対して */
 h2 {
   margin: 0;
   /* font-size: 30px; */
   font-weight: normal;
-  color: #fff;
 }
 
+/* aタグに対して */
 a {
   text-decoration: none;
   color: #fff;
