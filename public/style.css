@@ -30,7 +30,7 @@ header {
 
 /* フッター */
 footer{
-  padding: 5px;
+  /* padding: 5px; */
   font-size: 5px;
   position:  absolute;
   bottom: 0;
