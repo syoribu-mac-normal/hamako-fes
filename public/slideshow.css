@@ -3,13 +3,12 @@
     width: 100%;
     padding-top: 42.8%;
     overflow: hidden;
-    background-color: #95e64a;
+    background-color: #00000000;
   }
   
   @keyframes slideshow {
     0% {
       opacity: 0;
-      height: fit-content;
     }
   
     10% {
@@ -18,7 +17,6 @@
   
     28% {
       opacity: 1;
-      height: 1000px;
     }
   
     38% {
@@ -38,13 +36,13 @@
     width: 100%;
     height: auto;
     opacity: 0;
-    animation: slideshow 16ms linear infinite;
+    animation: slideshow 10s linear infinite;
   }
   
-  /* .slide img:nth-child(2) {
-    animation-delay: 8ms;
-  } */
+  .slide img:nth-child(2) {
+    animation-delay: 7.0s;
+   }
   
   .slide img:last-child {
-    animation-delay: 8ms;
+    animation-delay: 3.5s;
   }
