@@ -219,3 +219,15 @@ li {
     text-align: center;
   }
 }
+
+article {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
