@@ -1,0 +1,33 @@
+/*font-family: 'Noto Sans JP',sans-serif;*/
+
+.logo {
+    font-family: 'Noto Sans JP',sans-serif;
+    text-align: center;
+    color: rgb(134, 134, 134);
+}
+
+.bg{
+ background-color: rgb(31, 32, 34);   
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+main {
+    color: rgb(134, 134, 134);
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+article {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 2em;
+    font-size: 1.2em;
+    text-align: left;
+}

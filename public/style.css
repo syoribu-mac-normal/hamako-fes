@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-/* ボディ全体 */
+/* body */
 body {
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ body {
   color: #fff;
 }
 
-/* ヘッダー */
+/* header */
 header {
   padding: 30px 4% 10px;
   /* position: fixed; */
@@ -30,13 +30,13 @@ header {
 
 /* フッター */
 footer{
-  padding: 5px;
+  /* padding: 5px; */
   font-size: 5px;
   position:  absolute;
   bottom: 0;
 }
 
-/* h1タグに対して */
+/* h1に対して */
 h1 {
   font-family: 'DotGothic16', sans-serif;
   margin: 0;
@@ -44,14 +44,14 @@ h1 {
   font-size: 30px;
 }
 
-/* h２タグに対して */
+/* h2に対して */
 h2 {
   margin: 0;
   /* font-size: 30px; */
   font-weight: normal;
 }
 
-/* aタグに対して */
+/* aに対して */
 a {
   text-decoration: none;
   color: #fff;
@@ -218,4 +218,16 @@ li {
     line-height: 1.6;
     text-align: center;
   }
+}
+
+article {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
