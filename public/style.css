@@ -29,10 +29,10 @@ header {
 }
 
 /* フッター */
-footer{
+footer {
   /* padding: 5px; */
   font-size: 5px;
-  position:  absolute;
+  position: absolute;
   bottom: 0;
 }
 
@@ -116,7 +116,7 @@ li {
     height: 100vh;
     display: block;
     width: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.5);
     opacity: 0;
     transform: translateY(-100%);
     transition: all 0.2s ease-in-out;
@@ -220,6 +220,7 @@ li {
   }
 }
 
+/* テキスト本文のため */
 article {
   width: 80%;
   margin: 0 auto;
